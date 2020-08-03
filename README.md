@@ -7,6 +7,7 @@ This is a Service monitor application to check the availability of the external 
 * Moq framework used to mock the data in test methods
 
 ## Structure of the solution
+Please find the structure of the project solution as below.
 ### Services
 Two service projects names USService and Asia service, simply returninng the current datetime values
 ### Service Monitor
