@@ -79,8 +79,8 @@ This is a helper method written to check the service aavailability by sending a 
                         int bytesRead = stream.Read(bytes, 0, bytes.Length);
 
                         var response = Encoding.ASCII.GetString(bytes, 0, bytesRead);
-                        _logger.LogInformation("Response from service {service} to caller {caller} - {response}",
-                            service.Id, call.Id, response);
+                        _logger.LogInformation("Response from service {service} to caller {caller} 
+                                - {response}", service.Id, call.Id, response);
                         client.Close();
                         //TODO:  send notification to the caller using INotification methods
                     }
