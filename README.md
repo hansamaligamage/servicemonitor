@@ -1,5 +1,7 @@
 # Service Monitor application written in .NET Core
-This is a Service monitor application to check the availability of the external services as per the parameters from the caller
+This is a Service monitor application to check the availability of the external services as per the parameters from the caller, Worker service is going to ping to the services, get the response and logs it to the console window
+
+![System Architecture Diagram](https://github.com/hansamaligamage/servicemonitor/blob/master/Images/architecture-diagram.png?raw=true)
 
 ## Technology stack 
 * .NET Core 3.1 on Visual Studio 2019
