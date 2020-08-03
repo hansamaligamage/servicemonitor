@@ -20,7 +20,7 @@ Caller data is providede in the RemoteServiceCall class using the IRemoteService
 ### Service Generator project
 This is used to mock the data to services and service calls, for the time being service and call details are hard coded. But can extend to retrive them from other sources later
 ### Test project
-Tests are written in MSTest and Moq framework is used to mock the data. Two test methods has been written to check the service availability and to check the service outage
+Tests are written in MSTest and Moq framework is used to mock the data. Two test methods has been written to check the service availability and to check the service outage. Tests are written to cover only the wroker class in service monitor project.
 
 ## How to run the solution
 * Start two service projects - USService and Asia Service
