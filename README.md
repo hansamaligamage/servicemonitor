@@ -24,6 +24,10 @@ Tests are written in MSTest and Moq framework is used to mock the data. Two test
 * Start two service projects - USService and Asia Service
 * Then start MonitorWorkerService project to start monitoring the services
 
+You can see three console windows like this,
+
+![Service Monitor](https://github.com/hansamaligamage/servicemonitor/blob/master/Images/servicemonitor.png?raw=true)
+
 ## In Future
 * Service monitor is created as a background worker service and can be deployed as a windows service or daemon service in linux
 * Built in Logger is used, can extended to SeriLog to save log details into multiple medias like database, json file, csv file
